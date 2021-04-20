@@ -1,8 +1,8 @@
 # Music Visualiser Project
 
-Name:
+Name:Daneill Stibayev
 
-Student Number: 
+Student Number:C19307316 
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment
@@ -13,11 +13,26 @@ Student Number:
 
 # Description of the assignment
 
+My assignment is a music visualiser that changes how it looks based on the music played with two visualisers that are displayed based on where in the song you are. 
+I included rewind and song selection features, as I noticed that
+hadn't been done that often with one song being emphasied, whereas music visualisers should aim to make any type of music to become beautiful.
+
 # Instructions
+
+All you need to do is press space in order to play music and if you want to change songs your pause and press any number from 1-9 and if you want to rewind just 
+press r. You have the options displayed in the controls section of the mneu.
+
 
 # How it works
 
+It uses the audio buffer and audio smoothed bands to determine the size and colours of the two visualisers, I included.
+
 # What I am most proud of in the assignment
+
+Personally, I am quite proud of how the sun turned out, I had a hard time trying to figure out how to have the audio buffers surround it and figuring out 
+how to have the colours change based on the song. Overall, I am proud of the assignment, as I had a real hard time figuring out what to display, I am not a creative person when it comes
+to art, however I constantly tried new things to show which you can find in the testing java file, 
+which I decided not to include in order to not soil the experience of the two visualisers that I can proudly display.
 
 # Markdown Tutorial
 
