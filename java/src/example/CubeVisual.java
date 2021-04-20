@@ -1,6 +1,6 @@
 package example;
 
-import ie.tudublin.Visual;
+import example.Visual;
 
 public class CubeVisual extends Visual
 {
