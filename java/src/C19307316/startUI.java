@@ -89,6 +89,10 @@ public class startUI extends Audio
 
         if(key=='q')
         {
+            menusystem=2;
+        }
+        if(key=='s')
+        {
             menusystem=1;
         }
         if(key=='w')

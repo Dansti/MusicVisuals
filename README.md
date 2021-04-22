@@ -5,28 +5,32 @@ Name:Daneill Stibayev
 
 Student Number:C19307316 
 
-## Instructions
-- Fork this repository and use it a starter project for your assignment
-- Create a new package named your student number and put all your code in this package.
-- You should start by creating a subclass of ie.tudublin.Visual
-- There is an example visualiser called MyVisual in the example package
-- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
-
 # Description of the assignment
 
 My assignment is a music visualiser that changes how it looks based on the music played with two visualisers that are displayed based on where in the song you are. 
 I included rewind and song selection features, as I noticed that
-hadn't been done that often with one song being emphasied, whereas music visualisers should aim to make any type of music to become beautiful.
+hadn't been done that often with one song being emphasied, whereas music visualisers should aim to make any type of music to become beautiful. I also included a rewind feature
+to restart a song if desired.
 
 # Instructions
 
-All you need to do is press space in order to play music and if you want to change songs your pause and press any number from 1-9 and if you want to rewind just 
-press r. You have the options displayed in the controls section of the mneu.
+-Fork the Repository
+-Open the MusicVisuals Folder in My Visual Studio 
+-Press F5
+-Instructions will appear on the menu
+-You can press space to play music or q to view controls
+-You can switch songs with 1-9 when paused 
+-You can rewind songs with the r button
 
 
 # How it works
 
-It uses the audio buffer and audio smoothed bands to determine the size and colours of the two visualisers, I included.
+The main program launches the startUI which inherits values from audio that allows it to get the AudioBuffer and such. It sets up the default conditions and loads the menu with the sound
+and instructions. After that it lets you play the audio which is starts by placing "a star by the name of the sun" as it's first song(This can be changed by pausing the song and selecting
+any of the songs from 1-9. In the sun and build java files you can see how it determines the shapes and colours of the visuals based on the length of the song, audio buffer and smoothed bands.
+I also used some basics in geometry to rotate the shapes to make appealing visuals based on the lerpedbuffer and height of the screen to randomise the new look of the visuals for different scree
+types. Lastly, I dabbled alot in 3d modelling trying to create things like moving trains,a gyroscope and falling shapes, none of which I decided to use, mainly due to the reasons for them
+not looking visually appealing and my lack of ability in creating visually appearing art.
 
 # What I am most proud of in the assignment
 
@@ -35,71 +39,7 @@ how to have the colours change based on the song. Overall, I am proud of the ass
 to art, however I constantly tried new things to show which you can find in the testing java file, 
 which I decided not to include in order to not soil the experience of the two visualisers that I can proudly display.
 
-# Markdown Tutorial
 
-This is *emphasis*
+[![YouTube](https://www.youtube.com/watch?v=eVtPxU9jzoA)
 
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
 

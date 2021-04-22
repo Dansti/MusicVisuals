@@ -38,16 +38,12 @@ public class Build
             {
                 colour=0;
             }
-            //ui.pushMatrix();
-            degrees += 0.06;
-            float rad = startUI.radians(degrees);
-            angleX = startUI.cos(rad);
+            degrees += 0.00001*ui.getSmoothedBands()[i];
+            angleX = startUI.tan(startUI.radians(degrees));
             ui.rotate(angleX);
             ui.stroke(startUI.map(i, 0, ui.getBands().length*colour, 255, 0), 255, 255);
             ui.box(-ui.getSmoothedBands()[i] * 0.2f,-ui.getSmoothedBands()[i] * 0.2f,-ui.getSmoothedBands()[i]*0.2f); 
             colour += ui.getBands().length*0.001f; 
-            //System.out.print("\n" + degrees + "\n");
-            //ui.popMatrix();
         }
     }
 
