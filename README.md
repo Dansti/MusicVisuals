@@ -40,6 +40,6 @@ to art, however I constantly tried new things to show which you can find in the 
 which I decided not to include in order to not soil the experience of the two visualisers that I can proudly display.
 
 
-[![YouTube](https://i9.ytimg.com/vi_webp/eVtPxU9jzoA/mqdefault.webp?time=1619102100000&sqp=CJSThoQG&rs=AOn4CLD_su8cKPxPbZR_9I7puMYDKVmgHg)](https://youtu.be/eVtPxU9jzoA)
+[![YouTube](https://img.youtube.com/vi/eVtPxU9jzoA/hqdefault.jpg)](https://youtu.be/eVtPxU9jzoA)
 
 
