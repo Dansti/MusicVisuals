@@ -9,8 +9,7 @@ Student Number:C19307316
 
 My assignment is a music visualiser that changes how it looks based on the music played with two visualisers that are displayed based on where in the song you are. 
 I included rewind and song selection features, as I noticed that
-hadn't been done that often with one song being emphasied, whereas music visualisers should aim to make any type of music to become beautiful. I also included a rewind feature
-to restart a song if desired.
+hadn't been done that often with one song being emphasied, whereas music visualisers should aim to make any type of music to become beautiful.
 
 # Instructions
 
