@@ -13,13 +13,13 @@ hadn't been done that often with one song being emphasied, whereas music visuali
 
 # Instructions
 
--Fork the Repository
--Open the MusicVisuals Folder in My Visual Studio 
--Press F5
--Instructions will appear on the menu
--You can press space to play music or q to view controls
--You can switch songs with 1-9 when paused 
--You can rewind songs with the r button
+- Fork the Repository
+- Open the MusicVisuals Folder in My Visual Studio 
+- Press F5
+- Instructions will appear on the menu
+- You can press space to play music or q to view controls
+- You can switch songs with 1-9 when paused 
+- You can rewind songs with the r button
 
 
 # How it works
